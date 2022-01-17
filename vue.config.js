@@ -44,5 +44,8 @@ module.exports = {
         return options
       })
   },
+  devServer: {
+    disableHostCheck: true
+  },
   transpileDependencies: ['vue-echarts', 'resize-detector'],
 }
