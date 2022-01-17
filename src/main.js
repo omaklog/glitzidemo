@@ -10,10 +10,10 @@ import App from './App.vue'
 import './global-components'
 
 // 3rd party plugins
-import '@/libs/portal-vue'
-import '@/libs/toastification'
-import '@/libs/vue-select'
 import './plugins/vee-validate'
+import '@/libs/toastification'
+import '@/libs/portal-vue'
+import '@/libs/vue-select'
 
 // BSV Plugin Registration
 Vue.use(ToastPlugin)

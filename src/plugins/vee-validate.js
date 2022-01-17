@@ -9,6 +9,6 @@ Vue.component('ValidationProvider', ValidationProvider)
 extend('required', { ...required, message: 'El campo  {_field_} es requerido' })
 extend('email', { ...email, message: 'El campo email no tiene el formato correcto' })
 
-const config = { localize: es }
+const conf = { localize: es }
 
-configure(config)
+configure(conf)
