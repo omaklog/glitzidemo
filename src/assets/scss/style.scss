@@ -1,0 +1,67 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import './variables/variables';
+
+body{
+  background-color: $background !important;
+}
+
+.bg-grey{
+  background-color: $bg-grey-light !important;
+}
+
+.nb{
+  border:none !important;
+}
+
+.btn-inactive{
+  background-color: $bg-grey-light !important;
+  color:$grey-text-light;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.label-form{
+  margin-top: 19px !important;
+  margin-bottom: 5px !important;
+  line-height: 15px;
+  color: $grey-text;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.form-control{
+  font-weight: bold !important;
+  font-size: 12px;
+}
+
+.vs__search::placeholder{
+  font-size: 12px !important;
+  color: $grey-text-label !important;
+  font-weight: bold;
+}
+
+.v-select.vs--single .vs__selected{
+  font-weight: bold !important;
+  font-size: 12px;
+}
+
+.form-group{
+  margin-bottom: 0px !important;
+}
+
+.custom-control{
+  margin-top: 19px !important;
+}
+
+.custom-control-label{
+  font-weight: bold;
+  font-size: 12px;
+}
